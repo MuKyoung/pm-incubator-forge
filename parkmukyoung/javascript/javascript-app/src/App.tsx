@@ -1,5 +1,6 @@
 import './App.css'
-import { CalculationExample } from '../math_operation/CalcuationExample'
+import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
+import { CalculationExample } from './math_operation/CalcuationExample'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
             지저분해지는 상황을 방지할 수 있습니다. */}
         {/* 관심사의 분리를 달성할 수 있음 */}
         <CalculationExample/>
+        <VariableAndDataTypes/>
       </div>
     </>
   )
